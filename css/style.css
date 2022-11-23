@@ -42,7 +42,8 @@ header{
 	letter-spacing: 1px;
 }
 span{
-	color: var(--main-color);
+	color:blue;
+	/*var(--main-color);*/
 }
 .navlist{
 	display: flex;
@@ -95,7 +96,7 @@ section{
 	font-size: 20px;
 	font-weight: 500;
 	border-radius: 5px;
-	background: var(--main-color);
+	background: blue;
 	color: var(--text-color);
 }
 .two{
@@ -441,7 +442,7 @@ form textarea{
 	border-radius: 8px;
 	font-size: 15px;
 	color: var(--text-color);
-	background: var(--main-color);
+	background: blue;
 }
 
 
