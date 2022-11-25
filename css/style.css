@@ -71,7 +71,11 @@ span{
 }
 
 section{
-	padding: 160px 15% 120px;
+	padding: 24px 15% 10px;
+	
+}
+section h3{
+	font-size: 25px;
 }
 .home{
 	position: relative;
@@ -230,8 +234,8 @@ header.sticky{
 }
 .box{
 	background: var(--bg-color);
-	padding: 35px 45px;
-	border-radius: 8px;
+	padding: 1px 1px;
+	border-radius: 10px;
 	transition: all .45s ease;
 }
 .s-icons i{
@@ -239,7 +243,7 @@ header.sticky{
 	margin-bottom: 20px;
 }
 .box h3{
-	font-size: 24px;
+	font-size: 30px;
 	font-weight: 600;
 	color: var(--text-color);
 	margin-bottom: 15px;
@@ -250,6 +254,7 @@ header.sticky{
 	line-height: 1.8;
 	margin-bottom: 25px;
 }
+
 .read{
 	display: inline-block;
 	padding: 8px 18px;
@@ -445,6 +450,104 @@ form textarea{
 	background: blue;
 }
 
+/* Estilo para o plugin slick*/
+    .slick-dotted ul{
+        list-style-type: none;
+        text-align: center;
+        position: relative;
+        margin-top: 50px;
+    }
+
+    .slick-dotted li{
+        display: inline-block;
+        margin: 0 7px;
+    }
+
+    .slick-dotted button:focus{
+        outline: 0;
+    }
+
+    .slick-dotted li button{
+        width: 16px;
+        height: 16px;
+        border-radius: 8px;
+        color: #d8d8d8;
+        border-width: 0;
+        background-color: #d8d8d8;
+        opacity: 1;
+        cursor: pointer;
+    }
+
+    li.slick-active button{
+        background-color: #688293;
+        color: #688293;
+    }
+
+    .slick-slide:focu{outline: none;}
+
+
+/* Fim do estilo para o plugin*/
+.clear{
+    clear: both;
+}
+
+.container{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+html,body{
+    height: 100%;
+}
+/*-----------------header do site----------------- */
+
+/*-----------------Depoimentos----------------- */
+section.depoimentos > h2{
+    color: #698293;
+    text-align: center;
+    font-size: 18px;
+}
+
+section.depoimentos > .container{
+    padding: 0px 0;
+    max-width: 400px;
+}
+
+section.depoimentos .depoimento-single{
+    text-align: center;
+    width: 100%;
+    padding: 0 2%;
+}
+
+.depoimento-single quote{
+    font-size: 15px;
+    color: #b4b4b4;
+}
+
+.depoimento-single .nome-depoimentos{
+    padding: 19px 0;
+}
+
+.nome-depoimentos img{
+    width: 40px;
+    height: 32px;
+    display: inline-block;
+    border-radius: 16px;
+}
+
+.nome-depoimentos span{
+    position: relative;
+    top: 4px;
+    font-size: 13px;
+    color: #b4b4b4;
+    display: inline-block;
+    margin-top: 5px;
+    vertical-align: top;
+}
+/*---------------------------------------------------*/
+
+
 
 @media (max-width: 1480px){
 	header{
@@ -456,7 +559,7 @@ form textarea{
 		transition: .1s;;
 	}
 	section{
-		padding: 110px 3% 60px;
+		padding: 20px 3% 30px;
 	}
 	.end{
 		padding: 15px 3%;
