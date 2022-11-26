@@ -62,7 +62,7 @@ $(function(){
 
         ]
     });
-    $('.depoimentos .container').slick({
+    $('.skills .container').slick({
         centerMode: false,
         slidesToShow:1,
         arrows:false,

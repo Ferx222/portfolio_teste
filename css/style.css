@@ -237,6 +237,7 @@ header.sticky{
 	padding: 1px 1px;
 	border-radius: 10px;
 	transition: all .45s ease;
+	margin: 1px 25% 1px;
 }
 .s-icons i{
 	font-size: 32px;
@@ -247,6 +248,7 @@ header.sticky{
 	font-weight: 600;
 	color: var(--text-color);
 	margin-bottom: 15px;
+	
 }
 .box p{
 	color: var(--second-color);
@@ -349,7 +351,6 @@ header.sticky{
 }
 .contact-text h4{
 	color: var(--text-color);
-	margin: 18px 0;
 	font-size: 20px;
 	font-weight: 600;
 }
@@ -455,7 +456,7 @@ form textarea{
         list-style-type: none;
         text-align: center;
         position: relative;
-        margin-top: 50px;
+        margin-top: 30px;
     }
 
     .slick-dotted li{
@@ -502,19 +503,18 @@ html,body{
 }
 /*-----------------header do site----------------- */
 
-/*-----------------Depoimentos----------------- */
-section.depoimentos > h2{
-    color: #698293;
-    text-align: center;
-    font-size: 18px;
+/*-----------------skills----------------- */
+section.skills h4{
+	font-size: 35px;
+	color: #ff4d05;
 }
 
-section.depoimentos > .container{
+section.skills > .container{
     padding: 0px 0;
     max-width: 400px;
 }
 
-section.depoimentos .depoimento-single{
+section.skills .depoimento-single{
     text-align: center;
     width: 100%;
     padding: 0 2%;
@@ -525,18 +525,18 @@ section.depoimentos .depoimento-single{
     color: #b4b4b4;
 }
 
-.depoimento-single .nome-depoimentos{
+.depoimento-single .nome-skills{
     padding: 19px 0;
 }
 
-.nome-depoimentos img{
+.nome-skills img{
     width: 40px;
     height: 32px;
     display: inline-block;
     border-radius: 16px;
 }
 
-.nome-depoimentos span{
+.nome-skills span{
     position: relative;
     top: 4px;
     font-size: 13px;
