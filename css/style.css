@@ -579,6 +579,14 @@ section.skills .depoimento-single{
 	.home{
 		height: 87vh;
 	}
+	.box{
+		margin: 1px 1px 1px;
+	}
+	
+	section.skills h4{
+		font-size: 45px;
+		color: #ff4d05;
+	}
 }
 
 @media (max-width: 920px){
